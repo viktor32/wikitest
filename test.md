@@ -2,8 +2,8 @@
 
 | Symbol | Description |
 | :---: | :--- |
-| **$msg$** | a message transmitted by a participating node to its peers during a specific step |
-| **$sig\(x\)$** | the EdDSA signature of $x$ |
+| **$$msg$$** | a message transmitted by a participating node to its peers during a specific step |
+| $$sig\(x\)$$ | the EdDSA signature of $x$ |
 | **$H\(x\)$** | the SHA-256 hash of $x$ |
 | **$r$** | the current round of the algorithm, which is equivalent to the number of blocks in the database plus one. $r &gt;= 1$ |
 | **$s$** | the current step number of the algorithm in the round. $s &gt;= 1$ |
