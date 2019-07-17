@@ -2,12 +2,12 @@
 
 | Symbol | Description |
 | :---: | :--- |
-| **$$msg$$** | a message transmitted by a participating node to its peers during a specific step |
+| $$msg$$ | a message transmitted by a participating node to its peers during a specific step |
 | $$sig(x)$$ | the EdDSA signature of $x$ |
 | **$H\(x\)$** | the SHA-256 hash of $x$ |
 | **$r$** | the current round of the algorithm, which is equivalent to the number of blocks in the database plus one. $r &gt;= 1$ |
 | **$s$** | the current step number of the algorithm in the round. $s &gt;= 1$ |
-| **$$B_{r}$$** | a block created in round $r$, which equals to { **$r$**, **$ID\_{producer}$**, **$Q\_{r}$**, **$H\(B\_{r}\)$**, **$H\(B\_{r-1}\)$**, **$sig\(B\)$**, **$PAY\_{r}$**, **$CERT\_{Br}$** } |
+| $$B_{r}$$ | a block created in round $r$, which equals to { **$r$**, **$ID\_{producer}$**, **$Q\_{r}$**, **$H\(B\_{r}\)$**, **$H\(B\_{r-1}\)$**, **$sig\(B\)$**, **$PAY\_{r}$**, **$CERT\_{Br}$** } |
 | **$H\(B\_{r}\)$** | the SHA-256 hash of **$B\_{r}$** |
 | **$PAY\_{r}$** | the set of transactions contained in block **$B\_{r}$** |
 | **$Q\_{r}$** | the shared randomness seed of round **$r$** |
